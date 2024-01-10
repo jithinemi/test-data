@@ -1,0 +1,58 @@
+﻿Digi KGB,,,,,,
+Version no:,,Verified by :,,,,
+Tested by:,,Date :,,,,
+Environment details:,,Module name: openig application,,,,
+Test ID:,Test Description,Test Procedure,Test Data,Expected  Result,Actual Result,Status
+rdf_rp_01,check whether the Application is open by clicking create account,"1.open App
+2.click create account ",Digi Kgb,"should open the app by click 
+","application  is open
+successfully",pass
+rdf_rp_02,"check whether  characters are allowed
+in Ac No. field","1.open App
+2.Enter ac no.
+","ajith
+12345678901234",should accept  characters ,ac no. field accept only numbers,fail
+rdf_rp_03,"check whether the mazimum  strength 
+of ac no. field is 20","1.open app
+2.enter ac no.
+","
+098765432112354", should accept maximum 20characters ,accept only 14,fail
+rdf_rp_04,check whether is there any otp for login,1.open app,1234,otp generation,no otp generation,pass
+rdf_rp_05,check whether the is there any m pin for open application,"1open app
+2.enter m pin","
+1234",should shows m pin field,shows option for mpin,pass
+rdf_rp_06,check whether the logo shown in app  is correct,"1.open  app
+2.check logo",Digi Kgb,should display the logo,logo is correct,pass
+rdf_rp_07,check whether the forgot m pin option is there,"1.open  app 
+2.enter mpin
+",1234,should shown forgot mpin option,shown option for forgot mpin,pass
+rdf_rp_08,check how many times can be input wrong m pin,1.open app,1234,should allows 4 times,allows 3 time,fail
+rdf_rp_09,check whether the strength m pin field ,"1.open app
+2.enter mpin
+
+",1234,should accept more than 4,shouldn'taccept more than 4,fail
+rdf_rp_10,check whether the home page shows ac holder name,"1.open app
+2.enter name
+","ajith
+12345678901234",should show the name,shows the name,pass
+rdf_rp_11,check whether the balanc enquiry field is there ,"1.open registrartion page
+2.balance enquiery
+",balance,display balance enquiery,should displayed,pass
+rdf_rp_12,check whether is  there any lag for opening the balance enquiry,"1.open app
+",balance,shouldn't lag,takes more time to load,fail
+rdf_rp_13,check whether  the option for mini statement is there,"1.open app
+2.select mini statement",ministatement,should hows the option for ministatement,,pass
+rdf_rp_14,check whether the statement shows with correct dates,"1.open app
+2.select statement",1.click on eye icon,eye icon should works,eye icon is working,pass
+rdf_rp_15,check whether the my accounts field shows all schemes ,"1.open registration page 
+2.select drop down button",select statement,should display correct dates,shows the corrects dates,pass
+rdf_rp_16,check whether is there any option for transfer money,"1.open registration page
+2.clickon drop down botton",click on drop down,should shows security question,showing security question,pass
+rdf_rp_17,check whether the hamburger button is working ,enter answer,school,should display the letters,should not displayed,fail
+rdf_rp_18,check whether the location button helps to find nearst branch,1.open app,"abcdefghijklmnopq
+rstuvwxyz1234566",should accept only 30 characters,accept only 30 characters,pass
+rdf_rp_19,verify is there any option for debit card settings,1.enter name,"1.ajitha
+2.ajithawyeywuwu
+ueueuieuieiueueuu",no option for debit card settings,no,fail
+kgb_op_20,verify is there any option for credit card settings,,,,,
+kgb_op_21,,,,,,

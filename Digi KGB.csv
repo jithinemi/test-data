@@ -1,0 +1,24 @@
+﻿Digi KGB,,,,,,,
+"Identified by:
+Reported to:
+Environment details:
+Date:
+Version:",,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Bug ID, Test ID,Bug description,steps to reproduce,severity,priority,screenshot,status
+def_rdf_rp03,rdf_rp_03,"check whether the maximum character
+strength  of name field is 30","1.open registration page 
+2.enter more than 30 charact
+ers in name field",major,low,,new
+def_rdf_05,rdf_rp_05,"check the name field allow only alphab
+et","1.open registration page 
+2.enter name",minor,low,,new
+def_rdf_rp09,rdf_rp_09,check whether the strength of password is 8 to 100,"1.open registration page
+2.enter password",minor,medium,,new
+def_rdf_rp10,rdf_rp10,"check whether the password accept 
+less than 8 characters
+","1.open registration page
+2.enter password",major,medium,,new
